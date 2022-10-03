@@ -1,3 +1,18 @@
 body {
-    background-color: gold;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.stateBar {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.stateBar li {
+    width: 33%;
 }
