@@ -14,9 +14,12 @@
 }
 
 .nav_btn {
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav_link i {}
+.nav_link i {
+    font-size: 50px;
+}

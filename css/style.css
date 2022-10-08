@@ -3,6 +3,8 @@
 @import "variables.css";
 @import "status-bar.css";
 @import "nav.css";
+@import "list.css";
+@import "memoChat.css";
 
 body {
     width: 100%;
@@ -10,6 +12,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FDF6EE;
+    color: #2e365e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen,
+header {
+    padding: 0 var(--horizontal-space);
 }
 
 .welcome-header {

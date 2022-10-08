@@ -1,3 +1,5 @@
 :root {
     --main-color: #DDB290;
+    --border-bottom: 1px solid #DDB290;
+    --horizontal-space: 25px;
 }

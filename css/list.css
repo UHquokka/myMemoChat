@@ -1,0 +1,50 @@
+.titleBox {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.titleBox_icon {
+    font-size: 18px;
+}
+
+/*list*/
+
+.subjectBox {
+    margin-bottom: 25px;
+    border-top: var(--border-bottom);
+}
+
+.subjectBox_profile {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.subjectBox_profile_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.subjectBox_profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.subjectBox_profile_info_name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
