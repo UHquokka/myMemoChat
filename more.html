@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>list</title>
+    <title>More</title>
 </head>
-
 
 <body>
     <div class='status-bar'>
@@ -26,23 +25,28 @@
         </div>
     </div>
 
-    <header class='welcome-header'>
-        <h1 class='welcome-header__title'>Welcome to MemoChat</h1>
-        <p>
-            If you have a MemoChat Account, log in with your email or phone number.
-        </p>
+    <header class='titleBox'>
+        <h1 class='titleBox_title'>More</h2>
+            <div class='titleBox_icon'>
+                <a href='#'><i class="fas fa-search"></i></a>
+                <a href='#'><i class="fas fa-plus"></i></a>
+                <a href='#'><i class="fas fa-cog"></i></a>
+            </div>
     </header>
 
-    <body>
-        <form class='login-form' action='list.html'>
-            <input class='login-form_id' placeholder='Email or phone number' type='text' />
-            <input class='login-form_pw' placeholder='Password' type='password' />
-            <input class='login-form_btn' type='submit' value='Log in' />
+    <main>
+        <div class='user_profile'>
+            <img class='user_profile_img'
+                src='https://i.pinimg.com/736x/65/92/62/659262d2cf8b5236b78533af369dd453.jpg' />
+            <div class='user_profile_info'>
+                <span class='user_profile_Name'>Busy User</span>
+                <span class='user_profile_email'>abcd@memochat.com</span>
+            </div>
+        </div>
 
-            <a href='#'>Find MemoChat Account or Password</a>
-        </form>
 
-    </body>
+    </main>
+
     <nav class='nav'>
         <ul class='nav_list'>
             <li class="nav_btn">
@@ -71,7 +75,6 @@
             </li>
         </ul>
     </nav>
-
     <script src="https://kit.fontawesome.com/25e4b1ba71.js" crossorigin="anonymous"></script>
 </body>
 
