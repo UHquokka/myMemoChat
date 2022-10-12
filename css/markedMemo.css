@@ -1,0 +1,75 @@
+.markedBox {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DBD8C5;
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+.markedBox_profile {
+    display: flex;
+}
+
+.markedBox_profile_img {
+    width: 100px;
+    height: 100px;
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+}
+
+.markedBox_profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.markedBox_profile_info_subject {
+    font-size: 15px;
+}
+
+.markedBox_profile_info_memo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/*input 은 숨겨주기*/
+input#check {
+    display: none;
+    margin-right: 20px;
+}
+
+/*input 바로 다음의 label*/
+input#check+label {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/*input 바로 다음의 label:before 에 체크하기 전 CSS 설정*/
+input#check+label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    border: 2px solid #F2EFE8;
+    vertical-align: middle;
+    /*체크 전과 체크 후 높이 차이 때문에 설정*/
+}
+
+/*checked된 input 바로 다음의 label:before 에 체크 후 CSS 설정*/
+input#check:checked+label:before {
+    content: "\f00c";
+    /*폰트어썸 유니코드*/
+    font-family: "Font Awesome 5 free";
+    /*폰트어썸 아이콘 사용*/
+    font-weight: 900;
+    /*폰트어썸 설정*/
+    color: #fff;
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+    font-size: 13px;
+    text-align: center;
+}
